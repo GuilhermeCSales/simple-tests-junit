@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde80f73-9f86-4ae3-a7e9-e8c17830fb2f" name="Changes" comment="" />
+    <list default="true" id="bde80f73-9f86-4ae3-a7e9-e8c17830fb2f" name="Changes" comment="deposit test created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/entities/AccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/entities/AccountTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -46,7 +50,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AccountTests">
     <configuration name="AccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-class" />
       <extension name="coverage">
@@ -63,9 +67,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTests.depositShoultDoNothingWhenNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="METHOD_NAME" value="depositShoultDoNothingWhenNegativeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountTests" />
+      <item itemvalue="JUnit.AccountTests.depositShoultDoNothingWhenNegativeAmount" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountTests" />
+        <item itemvalue="JUnit.AccountTests.depositShoultDoNothingWhenNegativeAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -78,6 +103,35 @@
       <option name="presentableId" value="Default" />
       <updated>1648751671519</updated>
     </task>
+    <task id="LOCAL-00001" summary="entity account cre">
+      <created>1648754896059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648754896059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="junit configuration">
+      <created>1648754944651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648754944651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created test">
+      <created>1648754969477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648754969477</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deposit test created">
+      <created>1648755567000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648755567000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +144,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="entity account created" />
+    <MESSAGE value="junit configuration" />
+    <MESSAGE value="created test" />
+    <MESSAGE value="deposit test created" />
+    <option name="LAST_COMMIT_MESSAGE" value="deposit test created" />
   </component>
 </project>
